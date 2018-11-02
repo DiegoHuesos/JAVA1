@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CalculaEspacio.java&apos; to &apos;Geometría/src/(default package)&apos;&#x0A;- Original project: &apos;CalculaEspacio&apos;&#x0A;- Destination element: &apos;Geometría/src/(default package)&apos;&#x0A;- Original element: &apos;CalculaEspacio.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Geometría/src&lt;" element1="/src&lt;{CalculaEspacio.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1537066573439" units="1" version="1.0"/>
+</session>

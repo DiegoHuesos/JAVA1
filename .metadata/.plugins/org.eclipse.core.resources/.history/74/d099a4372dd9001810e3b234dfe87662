@@ -1,0 +1,43 @@
+/*
+ * Diego HD
+ * 26/0ct/2018
+ */
+public class Company {
+	private final int MAX=12;    //ventas mensuales
+	private String nombre;
+	private String direccion;
+	private String telefono;
+	private String rfc;
+	private double [] ventas;
+	
+	public Company(){
+		ventas=new double [MAX];
+	}
+	
+	public Company(String nombre, String direccion, String telefono, String rfc){
+		this();
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.telefono = telefono;
+		this.rfc = rfc;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public String getRfc() {
+		return rfc;
+	}
+	
+	
+
+}
