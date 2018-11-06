@@ -1,4 +1,8 @@
-
+/*
+ * Diego Hernández Delgado (176262)
+ * Fecha: 28/09/2018
+ * Clase Cientificio
+ */
 public class CientificoMatematico {
 	private String nombre;
 	private String areaEspecialidad;

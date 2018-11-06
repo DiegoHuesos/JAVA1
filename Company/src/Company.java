@@ -66,7 +66,7 @@ public class Company {
 		sb.append("   Adress:"+direccion+"\n");
 		sb.append("   Phone:"+telefono+"\n");
 		sb.append("   RFC:"+rfc+"\n");
-		for(int i=0; i<MAX; i++)
+		for(int i=0; i<ocupVentas; i++)
 			sb.append(ventas[i]+" ");
 		
 		return sb.toString();
@@ -81,6 +81,15 @@ public class Company {
 		return resp;
 			
 	}
+	
+	public double totalVentas(){
+		double total;
+		
+		total= ManejadorArreglosIrma.sumaArreglo(ventas, MAX);
+		return total;
+	}
+	
+	
 	
 	public int antiguedad(){
 		String cadena;

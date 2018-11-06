@@ -1,0 +1,141 @@
+/*
+ * Diego Hernández Delgado
+ * 176262
+ * (04/11/2018)
+ */
+import java.util.Scanner;
+import java.io.*;
+
+public class ManejadorCadenas {
+	
+	//Ejercicio 1:
+	//a) 
+	public static String soloPares(String str){
+		String newString = "";
+		for(int i=0; i<str.length(); i++)
+			if(i%2==0)
+				newString+= str.charAt(i);
+		for(int i=1;i<str.length(); i+=2)
+			newString+= str.charAt(i);
+		return newString; 
+	}
+	
+	/*
+	 * public static
+	 */
+	
+	//b)
+	public static int numIncidencias(String str, char c){
+		int respIncidencias=0;
+		for(int i=0; i<str.length(); i++)
+			if(str.charAt(i)==c)
+				respIncidencias++;
+		return respIncidencias;
+	}
+	
+	
+	
+	//Ejercicio 2:
+	public static String borraS(String str){
+		String resp="";
+		for(int i=0; i<str.length(); i++)
+			if(str.charAt(i) != 's')
+				resp+= str.charAt(i);
+			else{
+				resp+='s';
+				i+=2;
+			}
+		return resp;			
+	}
+	char c='d';
+	
+	//Ejercicio 3:
+	public static String sustantivosPropios(String str){
+		String resp="";
+		String[] arr = str.split(" ");
+		
+		for(int i=0; i<arr.length; i++){
+			if(Character.isUpperCase(arr[i].charAt(0)))
+				resp+=arr[i].toUpperCase()+" ";
+			else
+				resp+=arr[i]+" ";
+		}
+		return resp;
+	}
+	
+	public static String sustPropDesdeArchivo(File archivo){
+		String resp;
+		try(Scanner lectura= new Scanner(archivo)){	
+			String todasLasFrases="";
+			while(lectura.hasNextLine()){
+				todasLasFrases+=ManejadorCadenas.sustantivosPropios(lectura.nextLine())+"\n";
+			}
+			resp = todasLasFrases;
+		}
+			
+		catch(FileNotFoundException e){
+			resp= "Error debido a: "+e.getMessage();
+		}
+		
+		return resp;
+	}
+	
+	//Ejercicio 4:
+	public static String decodifica(String str){
+		String resp="";
+		int a=0;
+		for(int i=0; i<str.length(); i++)
+			if(i%2 ==0){
+				a=Character.getNumericValue(str.charAt(i));	
+			}
+			else
+				for(int e=0; e<a; e++)
+					resp+= str.charAt(i);
+		return resp;
+	}
+	
+	
+//Main:Ejecutable:	
+	public static void main(String[]args){
+		
+		String sss="Yo sssoy un sssalsssero.";
+		String a4= "3a4b2a";
+		File archivo=new File("frases.txt");
+		
+		//1.- a)
+		String cadena="Flor de un dia";
+		System.out.println("Ejercicio 1.-a) String primero indices pares y luego impares:"); 
+		System.out.println("	String original:   "+cadena);
+		System.out.println("	String resultante: "+ManejadorCadenas.soloPares(cadena));
+		//1.- b)
+		System.out.println(ManejadorCadenas.numIncidencias(cadena, 'a'));
+		
+		//2
+		System.out.println(ManejadorCadenas.borraS(sss));
+		
+		//3
+		System.out.println(ManejadorCadenas.sustPropDesdeArchivo(archivo));
+		
+		/*try(Scanner lectura= new Scanner(archivo)){
+			
+			String todasLasFrases="";
+			while(lectura.hasNextLine()){
+				todasLasFrases+=ManejadorCadenas.sustantivosPropios(lectura.nextLine())+"\n";
+			}
+			System.out.println(todasLasFrases);	
+		}
+		
+		catch(FileNotFoundException e){
+			e.printStackTrace();
+		}*/
+		
+		
+		
+		
+		
+		
+		//4
+		System.out.println("este: "+ManejadorCadenas.decodifica(a4));
+	}
+
+}

@@ -7,10 +7,30 @@ public class CompanyFileEjcutable {
 		Scanner lectura= new Scanner (System.in);
 		double dato, monto;
 		boolean resp;
-		File archivo= new File ("datos.txt");
+		String cadena;
+		
+		System.out.println("Dame el nombre del archivo: ");
+		cadena=lectura.nextLine();
+		File archivo= new File (cadena);
+		
+		
 		Company c1= new Company("Don Charlie", "Río Hondo", "55445544", "HEDD98061509H700");
 		
-		for (int i=1; i<3; i++){
+		try(Scanner leeArchivo=new Scanner(archivo)){
+			for(int i=0; i<3; i++){
+				monto=leeArchivo.nextDouble();
+				c1.altaVentas(monto, i+1);
+			}
+			leeArchivo.close();
+			
+		}
+		catch(Exception err){
+			System.out.println("Error debido a "+err.getMessage());
+			
+		}
+		
+		
+		/*for (int i=1; i<3; i++){
 			System.out.println("Dame las ventas del mes "+i+": ");
 			monto=lectura.nextDouble();
 			resp= c1.altaVentas(monto, i);
@@ -19,8 +39,10 @@ public class CompanyFileEjcutable {
 			else
 				System.out.println("Ok");
 		}
+		*/
+		
 		System.out.println(c1.toString());
-		System.out.println(c1.antiguedad());
+		System.out.println("Tiene "+c1.antiguedad()+" anios.");
 
 		
 		
