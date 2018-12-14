@@ -1,0 +1,1 @@
+Nissan	2008	March	123	M	0	0	Gris	Diego	20	HBMW	2012	Z1	234	M	0	1	Verde	Juan	70	HToyota	2018	CR-V	657	C	1	4	Morada	Fer	15	M

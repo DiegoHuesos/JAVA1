@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot
+END
+dfa.st
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/dfa.st
+END
+epsilon-edge.st
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/epsilon-edge.st
+END
+action-edge.st
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/action-edge.st
+END
+state.st
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/state.st
+END
+edge.st
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/edge.st
+END
+nfa.st
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/nfa.st
+END
+decision-rank.st
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/decision-rank.st
+END
+stopstate.st
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/tool/templates/dot/stopstate.st
+END

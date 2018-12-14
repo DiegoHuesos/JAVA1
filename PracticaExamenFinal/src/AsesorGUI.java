@@ -1,0 +1,65 @@
+import javax.swing.*;
+import javax.swing.border.Border;
+import java.awt.GridLayout;
+
+public class AsesorGUI extends JFrame{
+	private static final long serialVersionUID=1l;
+	protected JPanel panel;
+	protected Border borde;
+	protected GridLayout gl;
+	protected JLabel lblEdad, lblCant, lblCasa, lblPendientes, lblVacio, lblRecomendacion;
+	protected JTextField txtEdad, txtCant, txtCasa, txtPendientes, txtRecomendacion;
+	protected JButton bRecomienda;
+	
+	public AsesorGUI(String title){
+		super(title);
+		
+		panel=new JPanel();
+		
+		
+		borde= BorderFactory.createEmptyBorder(5,30,30,10);
+		panel.setBorder(borde);
+		
+		gl= new GridLayout(6,2);
+		panel.setLayout(gl);
+		
+		lblEdad=new JLabel("Edad del inversionista.");
+		panel.add(lblEdad);
+		txtEdad=new JTextField("");
+		panel.add(txtEdad);
+		
+		lblCant=new JLabel("Cantidad que quiere invertir:");
+		panel.add(lblCant);
+		txtCant=new JTextField("");
+		panel.add(txtCant);
+		
+		lblCasa=new JLabel("¿Tiene casa propia?");
+		panel.add(lblCasa);
+		txtCasa=new JTextField("");
+		panel.add(txtCasa);
+		
+		lblPendientes=new JLabel("¿Tiene pendientes?");
+		panel.add(lblPendientes);
+		txtPendientes=new JTextField("");
+		panel.add(txtPendientes);
+		
+		bRecomienda=new JButton("Recomendación");
+		panel.add(bRecomienda);
+		lblVacio= new JLabel("");
+		panel.add(lblVacio);
+		
+		lblRecomendacion=new JLabel("Se recomienda:");
+		panel.add(lblRecomendacion);
+		txtRecomendacion=new JTextField("");
+		panel.add(txtRecomendacion);
+		
+		this.add(panel);
+		this.setVisible(true);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setBounds(500, 300, 500, 500);
+	}
+	
+	public static void main(String[]args){
+		new AsesorGUI("a1");
+	}
+}

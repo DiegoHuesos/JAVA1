@@ -1,0 +1,37 @@
+import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
+
+public class leeArchivo {
+	
+	public static int gengen(String nameFile){
+		String[] words;
+		int[] veces;
+		String linea;
+		
+		int a=0;
+		
+		File archivo= new File("textoco.txt");
+		try(Scanner lectura=new Scanner (archivo)){
+			ArrayList <String> aux= new ArrayList<String>();
+			ArrayList <String> auxNoRep= new ArrayList<String>();
+			while(lectura.hasNext()){
+				String var= lectura.next();
+				aux.add(var);
+				if(!auxNoRep.contains(var))
+					auxNoRep.add(var);
+			}
+			System.out.println(aux.toString());
+			System.out.println(auxNoRep.toString());
+			lectura.close();
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+		return a;
+	}
+	
+	
+	public static void main (String[]args){
+		System.out.println(leeArchivo.gengen("textoco.txt"));
+	}
+}

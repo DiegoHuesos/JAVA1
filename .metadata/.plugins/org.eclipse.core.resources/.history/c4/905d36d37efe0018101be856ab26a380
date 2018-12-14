@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class leeArchivo {
+	
+	public static int gengen(String nameFile){
+		String[] words;
+		int[] veces;
+		String linea;
+		String[] aux;
+		
+		File archivo= new File("textoco.txt");
+		try(Scanner lectura=new Scanner (archivo)){
+			linea=lectura.nextLine();
+			aux=linea.split(" ");
+			for(int i=0; i< aux.length; i++)
+				System.out.print(aux[i]+"");
+			
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+		return 1;
+	}
+	
+	
+	public static void main (String[]args){
+		leeArchivo.gengen("textoco.txt");
+	}
+}

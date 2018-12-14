@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Delphi
+END
+ASTParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Delphi/ASTParser.stg
+END
+ASTTreeParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Delphi/ASTTreeParser.stg
+END
+Delphi.stg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Delphi/Delphi.stg
+END
+AST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Delphi/AST.stg
+END

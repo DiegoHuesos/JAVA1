@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java
+END
+ASTDbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/ASTDbg.stg
+END
+ASTParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/ASTParser.stg
+END
+ASTTreeParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/ASTTreeParser.stg
+END
+ST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/ST.stg
+END
+AST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/AST.stg
+END
+Dbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/Dbg.stg
+END
+Java.stg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Java/Java.stg
+END

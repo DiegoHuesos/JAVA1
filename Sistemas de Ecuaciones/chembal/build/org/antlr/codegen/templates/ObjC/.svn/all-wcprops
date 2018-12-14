@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC
+END
+ASTDbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC/ASTDbg.stg
+END
+ASTParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC/ASTParser.stg
+END
+ASTTreeParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC/ASTTreeParser.stg
+END
+AST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC/AST.stg
+END
+Dbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC/Dbg.stg
+END
+ObjC.stg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/ObjC/ObjC.stg
+END

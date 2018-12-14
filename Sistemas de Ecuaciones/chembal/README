@@ -1,0 +1,17 @@
+chembal: A Chemical Equation Balancer
+Copyright 2005-2010 Berkeley Churchill <berkeleychurchill@att.net>
+Distributed under GPLv3
+
+To run, simply type
+
+java -jar chembal.jar <equation>
+
+Here are some examples of valid equations:
+
+Cu + HNO3 + Cu(NO3)2 +NO+H2O
+Na2CO3 + HCl --> NaCl + CO2 + H2O
+H2O + H^ + Cl^- + MnO4^- + Cl2 + Mn^2
+
+In general, standard chemical notation may be used.  ^ denotes charges; ^ is a +1 charge, ^- is a -1 charge, ^3 and ^-3 are +3 and -3 charges, repsectively.  Note you will need to either put quotes around the equation or do a fiar amount of escaping.
+
+If you would like to build a new .jar from source, just run 'make' in this folder.

@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+public class ListaArregloOrdenada{
+	
+	public <T extends Comparable<T>> boolean equals (ArrayList <T> otra){
+		boolean resp= false;
+		
+		return resp;
+	}
+	
+}

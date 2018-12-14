@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders
+END
+IgnoredBuilder.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/IgnoredBuilder.class
+END
+NullBuilder.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/NullBuilder.class
+END
+SuiteMethodBuilder.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/SuiteMethodBuilder.class
+END
+JUnit3Builder.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/JUnit3Builder.class
+END
+AnnotatedBuilder.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/AnnotatedBuilder.class
+END
+JUnit4Builder.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/JUnit4Builder.class
+END
+AllDefaultPossibilitiesBuilder.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.class
+END
+IgnoredClassRunner.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/builders/IgnoredClassRunner.class
+END

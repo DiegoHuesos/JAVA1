@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core
+END
+Is.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/Is.class
+END
+AnyOf.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/AnyOf.class
+END
+IsNot.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/IsNot.class
+END
+AllOf.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/AllOf.class
+END
+IsAnything.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/IsAnything.class
+END
+IsSame.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/IsSame.class
+END
+IsEqual.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/IsEqual.class
+END
+IsInstanceOf.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/IsInstanceOf.class
+END
+IsNull.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/IsNull.class
+END
+DescribedAs.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/DescribedAs.class
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/hamcrest/core/package.html
+END

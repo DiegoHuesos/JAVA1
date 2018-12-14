@@ -9,7 +9,7 @@ public class ejecutableDatosAlumnos {
 		lectura= new Scanner(System.in);
 		
 		
-		alumno1= new Alumno("Diego", "20", 9.0, "Mecatronica", 22, 4);
+		alumno1= new Alumno("Diego", 20, 9.0, "Mecatronica", 22, 4);
 		
 		System.out.println("Nombre: "+ alumno1.getNombre()+"\n");
 		System.out.println("Edad: "+ alumno1.getEdad()+"\n");

@@ -89,6 +89,13 @@ public class Company {
 		return total;
 	}
 	
+	public int mesMasVentas() {
+		int mes, mesf; 
+		mes = ManejadorArreglosIrma.posMaximo(ventas, MAX, 0); 
+		mes =+1; 
+		return mes;
+	
+	}
 	
 	
 	public int antiguedad(){

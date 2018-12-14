@@ -8,7 +8,13 @@ public class OficinaGobierno {
 	//Constructores
 	public OficinaGobierno(){
 		poblacion=new double[NUM_ESTADOS];
+		poblacion[0]=12000;
+		poblacion[1]=13000;
+		poblacion[2]=50000;
 		nombreEdos=new String[NUM_ESTADOS];
+		nombreEdos[0]="Morelos";
+		nombreEdos[1]="EdoMex";
+		nombreEdos[2]="Puebla";
 	}
 	
 	public OficinaGobierno(String encargado){

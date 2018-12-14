@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules
+END
+Verifier.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/Verifier.class
+END
+TemporaryFolder.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/TemporaryFolder.class
+END
+ExternalResource$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ExternalResource$1.class
+END
+TestName.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/TestName.class
+END
+ExpectedException.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ExpectedException.class
+END
+ErrorCollector$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ErrorCollector$1.class
+END
+Timeout.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/Timeout.class
+END
+TestWatchman$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/TestWatchman$1.class
+END
+ExternalResource.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ExternalResource.class
+END
+Verifier$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/Verifier$1.class
+END
+ErrorCollector.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ErrorCollector.class
+END
+TestWatchman.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/TestWatchman.class
+END
+ExpectedException$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ExpectedException$1.class
+END
+MethodRule.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/MethodRule.class
+END
+ExpectedException$ExpectedExceptionStatement.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/rules/ExpectedException$ExpectedExceptionStatement.class
+END

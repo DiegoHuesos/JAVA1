@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C
+END
+ASTDbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C/ASTDbg.stg
+END
+ASTParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C/ASTParser.stg
+END
+ASTTreeParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C/ASTTreeParser.stg
+END
+AST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C/AST.stg
+END
+Dbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C/Dbg.stg
+END
+C.stg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/C/C.stg
+END

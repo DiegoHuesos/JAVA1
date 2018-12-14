@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements
+END
+Fail.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/Fail.class
+END
+InvokeMethod.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/InvokeMethod.class
+END
+FailOnTimeout.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/FailOnTimeout.class
+END
+FailOnTimeout$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/FailOnTimeout$1.class
+END
+ExpectException.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/ExpectException.class
+END
+RunAfters.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/RunAfters.class
+END
+RunBefores.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/junit/internal/runners/statements/RunBefores.class
+END

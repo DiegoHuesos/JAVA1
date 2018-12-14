@@ -1,0 +1,33 @@
+
+
+chembal is an applet that balances chemical equations.  chembal is distributed under the GNU General Purpose License.  Please see GPL.txt for more details, or visit <http://www.gnu.org/licenses/>.
+
+If you have any questions about the source code, please email Berkeley Churchill (berkeleychurchill@att.net).
+
+
+----- Included files -----
+
+chChemical.java
+chElement.java
+chemlet.java
+chEquation.java
+chSet.java
+GPL.txt
+InvalidUserInputException.java
+IO.java
+MatrixOps.java
+README.txt
+SingularMatrixException.java
+
+
+----- HOW TO COMPILE TO .JAR  -----
+
+on the command line,
+
+>javac *.java
+>jar cvf chembal.jar *.class
+
+
+
+
+Copyright Berkeley Churchill 2005

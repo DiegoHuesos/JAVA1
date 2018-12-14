@@ -27,10 +27,10 @@ public class PruebaGeometrico{
 		System.out.println("La nueva area es: "+miCirculo.calculaArea());
 		System.out.println("El nueva Circunferencia es: "+miCirculo.calculaCircunferencia());*/
 		
-		circulo1=new Circulo();
-		System.out.print("Dame radio: ");
-		circulo1.setRadio(lectura.nextDouble());
-		System.out.println("\nÁrea: "+df.format(circulo1.calculaArea()));
+		circulo1=new Circulo(5);
+		//System.out.print("Dame radio: ");
+		//circulo1.setRadio(lectura.nextDouble());
+		//System.out.println("\nÁrea: "+df.format(circulo1.calculaArea()));
 		System.out.println("Circunferencia: "+df.format(circulo1.calculaCircunferencia()));
 		
 		

@@ -1,0 +1,39 @@
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class AsesorControlador extends AsesorGUI{
+	private static final long serialVersionUID=1l;
+	
+	public AsesorControlador(String title){
+		super(title);
+		new evento();
+		
+	}
+	
+	public class evento implements ActionListener{
+		
+		public void actionPerformed(ActionEvent e){
+			int edad= Integer.parseInt(txtEdad.getText());
+			double cant= Double.parseDouble(txtCant.getText());
+			boolean casa= Boolean.parseBoolean(txtCasa.getText());
+			boolean pendientes= Boolean.parseBoolean(txtPendientes.getText());
+			
+			String recomendacion="";
+			
+			if(edad<= 65)
+				recomendacion="Fondo con rendimiento fijo";
+			else if(edad>50 && casa && !pendientes){
+				recomendacion="Fondo con rendimiento fijo";
+			}
+			
+			txtRecomendacion.setText(recomendacion);
+			
+		}
+
+	
+	}
+	
+	public static void main (String[]args){
+		new AsesorControlador("ac");
+	}
+}

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python
+END
+ASTDbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/ASTDbg.stg
+END
+ASTParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/ASTParser.stg
+END
+ASTTreeParser.stg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/ASTTreeParser.stg
+END
+ST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/ST.stg
+END
+AST.stg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/AST.stg
+END
+Dbg.stg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/Dbg.stg
+END
+Python.stg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/berkeley/portfolio/svn/!svn/ver/37/chembal/build/org/antlr/codegen/templates/Python/Python.stg
+END

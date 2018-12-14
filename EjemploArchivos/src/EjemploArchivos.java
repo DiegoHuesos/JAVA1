@@ -1,7 +1,7 @@
 /*
- * Diego HD (176262)
- * (14-oct-2018)
- * Ejemplo de lectura de archivos:
+ * Diego Hernández Delgado
+ * Fecha: 14-oct-2018
+ * Ejemplo de lectura de archivos.
  */
 import java.io.*;
 import java.util.Scanner;

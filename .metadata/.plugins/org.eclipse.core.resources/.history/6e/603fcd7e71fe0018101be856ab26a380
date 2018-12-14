@@ -1,0 +1,18 @@
+import javax.swing.*;
+import javax.swing.border.Border;
+import java.awt.GridLayout;
+
+public class AsesorGUI extends JFrame{
+	private static final long serialVersionUID=1l;
+	protected JPanel panel;
+	protected Border borde;
+	protected GridLayout gl;
+	private JLabel edad, cantidad, casa, dependientes, vacio, recomendation;
+	protected JTextField txtEdad, txtCant, txtCasa, txtDep;
+	protected JButton recomendar;
+	
+	public AsesorGUI(String title){
+		super(title);
+		
+	}
+}
